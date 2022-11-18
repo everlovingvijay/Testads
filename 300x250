@@ -1,0 +1,12 @@
+<div style="position:relative; width:300px; height:250px;">
+<div id="frame-overlay" style="position:absolute; width:300px; height:250px; top:0; left:0; z-index:10;"></div>
+<iframe width="300" height="250" scrolling="no" frameborder="0" src="https://s0.2mdn.net/dfp/253958/5233916123/1668806788951/index.html"></iframe>
+</div>
+
+
+<script type="text/javascript">
+  document.getElementById("frame-overlay").onclick = function()
+  {
+   window.open("https://www.knorr.com/ie/knorr-products/zero-salt-stock-cubes.html");
+  };
+</script>
